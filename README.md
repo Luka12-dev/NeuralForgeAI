@@ -1,4 +1,10 @@
-﻿# NeuralForge AI
+### WARNING ###
+# FOR FULL USING NeuralForgeAI, DOWNLOAD FROM RELEASE, OR WITH 
+```bash
+pip install NeuralForgeAI
+```
+ 
+ # NeuralForge AI
 
 A high-performance deep learning framework built on PyTorch with CUDA acceleration, neural architecture search, and production-ready training pipelines.
 
