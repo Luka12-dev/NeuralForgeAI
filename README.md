@@ -1,10 +1,4 @@
-### WARNING ###
-# FOR FULL USING NeuralForgeAI, DOWNLOAD FROM RELEASE, OR WITH 
-```bash
-pip install NeuralForgeAI
-```
- 
- # NeuralForge AI
+﻿# NeuralForge AI
 
 A high-performance deep learning framework built on PyTorch with CUDA acceleration, neural architecture search, and production-ready training pipelines.
 
@@ -147,14 +141,14 @@ Verify the installation:
 NeuralForgeAI --help
 ```
 
-### Installation from Source
+### Installation from Source 
 
 For development or to get the latest features:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Luka12-dev/NeuralForgeAI.git
-cd NeuralForgeAI
+
+# Download the Newest Source in release
 
 # Install in editable mode
 pip install -e .
@@ -1770,6 +1764,18 @@ NeuralForge AI builds upon the excellent work of:
 ---
 
 ## Changelog
+
+### Version 2.0.0 (2026-01-06)
+
+Major performance upgrade with:
+- **15 datasets** (added SVHN, KMNIST, EMNIST, Flowers102, Places365)
+- **Dataset combination** (CombinedDataset for multi-domain training)
+- **Advanced optimizers** (SAM, AdamP, Ranger)
+- **10+ new neural network layers** (GhostModule, FusedMBConv, MBConvBlock, ShuffleNetBlock, etc.)
+- **Performance optimizations** (gradient accumulation, PyTorch 2.0 compilation, optimized data loading)
+- **2-4x faster training** with enhanced mixed precision and data loading
+- **1,500+ new lines of code** for better performance and features
+- Backward compatible with v1.0
 
 ### Version 1.0.0 (2024-01-02)
 
